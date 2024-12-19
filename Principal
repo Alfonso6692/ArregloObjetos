@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package arregloobjetos;
+
+/**
+ *
+ * @author ASUS-VASQUEZ
+ */
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Persona arrayPersonas[]={new Persona("Lorena",12), new Persona("Juan",22),
+        new Persona("Perla",40), new Persona("Jose",20),new Persona("Camila",14),    
+        new Persona("Armando",20), new Persona("Cecilia", 40)};
+        EdadMayor.personaMayor(arrayPersonas);
+        System.out.println("La edad mayor del arreglo es: "+ EdadMayor.personaMayor(arrayPersonas));
+        for (int i = 0; i <arrayPersonas.length ; i++) 
+        {
+            System.out.println("Datos de las personas: "+(i+1)+"\n"+arrayPersonas[i].toString()+"\n");
+        }
+    }
+    
+    
+}
+
+
