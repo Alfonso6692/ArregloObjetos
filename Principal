@@ -14,6 +14,13 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*  Creamos un arreglo de personas con 5 elementos
+        *   y asignamos valores a cada uno de ellos
+        *  la posición de los elementos comienza en 0
+        * por lo tanto el primer elemento es el 0 y el último es el 4
+        * el tamaño del arreglo es 5, pero los elementos van de 0 a 4
+        *   Creamos un  arreglo de 5 personas y le asignamos valores a cada uno de ellos
+         */
         Persona arrayPersonas[]={new Persona("Lorena",12), new Persona("Juan",22),
         new Persona("Perla",40), new Persona("Jose",20),new Persona("Camila",14),    
         new Persona("Armando",20), new Persona("Cecilia", 40)};
@@ -27,5 +34,3 @@ public class Principal {
     
     
 }
-
-
